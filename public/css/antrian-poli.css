@@ -1,0 +1,53 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+
+.display-1 {
+    font-size: 128px;
+    font-weight: bold;
+}
+
+.display-4 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.display-3 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+span {
+    font-weight: bold;
+    font-size: 240px;
+    color: red;
+}
+
+.bg-teal {
+    background: #38B349;
+}
+
+.scrollable-content {
+    animation: marqueeAnimation 45s linear;
+    
+}
+
+@keyframes marqueeAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(calc(-300% + 300px));
+    }
+}

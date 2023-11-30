@@ -20,6 +20,15 @@
   }
 }
 
+h1  {
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+    font-size: 64px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
